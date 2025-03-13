@@ -13,7 +13,7 @@ Version: $version
 Release: $release
 Requires: $name = $version-$release
 Provides: lua${luaver}dist($name) = $version
-Provides: luadist(%{pkg}) = $version
+Provides: luadist($name) = $version
 BuildArch: noarch
 Summary: @{[$pkg->summary()]}
 URL: @{[$pkg->url()]}

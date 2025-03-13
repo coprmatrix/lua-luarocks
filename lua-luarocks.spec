@@ -15,7 +15,7 @@ BuildArch:      noarch
 %description
 %{summary}.
 
-%(perl %{SOURCE0})
+%(perl %{SOURCE0} %{lua_version})
 
 
 %description
